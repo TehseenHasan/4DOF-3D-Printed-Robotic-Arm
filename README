@@ -1,0 +1,57 @@
+Original Design by Ftobler
+https://www.thingiverse.com/thing:1718984
+Credits go to Florin Tobler from Switzerland. HIs open source design kicks off a series of hardware & software modifications and this community. Contains STL/STEP for basic parts, Assembly Instruction, BOM and Firmware.
+
+Hardware Modification
+Mod Bundle by Leo Yeung
+https://www.thingiverse.com/thing:3328354
+Ultrasonic Sensor
+XY Simple Endswitch
+Stabiliser redesigned for sensor modules
+Case for ULN2003 Micro-stepper Driver
+Scorpion gripper
+https://www.thingiverse.com/thing:3615056
+Pi Camera Module
+https://www.thingiverse.com/thing:3375161
+Extraction Toolhead
+https://www.thingiverse.com/thing:3970939
+Z-endstop 
+
+Mod Bundle by César Omar Aranda
+https://www.thingiverse.com/thing:3674358
+
+Conversion to 3D Printing by LH FabLab
+https://www.thingiverse.com/thing:3846234
+
+Laser Cut Version SVG File by Jim Black
+https://drive.google.com/file/d/10iNSzAWOF8Me0bOjrj6suXtmE9yxRWBE/
+
+Belt Version by We Nuo
+https://github.com/Wenuo/RobotArm
+More at:
+https://www.thingiverse.com/thing:1718984/remixes
+
+Arduino Firmware
+Firmware by Ftobler
+https://github.com/ftobler/robotArm
+defaults position at (X0 Y120 Z120) initially instead of (X0 Y19.5, 134)
+
+Firmware Upgrade by Stephen Remillard/Tehseen Hasan/Leo Yeung
+https://github.com/intensite/robotarm
+Added support for G90 & G91: Set to Absolute / Relative Positioning coordinate modes
+X, Y, Z Homing Sequence added with G28 command
+Added support for M114: Get Current Position.
+Added support for partial coordinate movements commands
+Refactor code to ease the use of VSCode IDE
+Disable gripper stepper when not in use to prevent overheat (in 12 volt mode)
+Added debug messages and a few bug fixes.
+
+Control Software Projects
+NodeMCU by Atul Yadav & Stephen Remillard
+https://github.com/intensite/node_robot_ctrl
+https://github.com/atyadav/ftobler_Robotic_Arm_NodeMCU.git
+
+Xbox Controller, Python Voice Activation by Leo Yeung
+https://github.com/20sffactory/robotarm_pixbox
+https://github.com/20sffactory/voicebot_opensource 
+
