@@ -1,0 +1,16 @@
+try initiate robot at 0, 19.5, 134 via Arduino IDE
+then send gcode command one by one with following sequence:
+
+M17	
+G0 X0 Y120 Z120 F90	(Go just Forward)
+G0 X0 Y220 Z0 F90		(Forward and Down)
+G0 X0 Y19.5 Z134 F100	(Home)
+M5	(Gripper Close)
+M3	(Gripper Open)
+
+
+if your settings are correct it will only keep moving forward and won't do any rotation at all
+
+
+
+G0 X0 Y220 Z-70 F70 
